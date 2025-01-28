@@ -1,5 +1,7 @@
 import CoursePackage.Cource;
+import StudentPackage.Exam;
 import StudentPackage.Student;
+import StudentPackage.StudentDemo;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,5 +21,19 @@ public class Main {
 
         // Call the constructor
         Student StudentRef = new Student("Akshay");
+
+//        StudentDemo StudentDemoRef = new StudentDemo();
+//        StudentDemoRef.name = "Akshay";
+//        StudentDemoRef.age=22;
+//
+//        StudentDemoRef.sayHello("Sunil");
+
+        Exam e1 = new Exam();
+        e1.seatNumber = 12;
+        e1.startDate = 1;
+        e1.enddate = 2;
+        e1.examName = "Semister";
+
+        Exam e2 = new Exam(e1);
     }
 }
