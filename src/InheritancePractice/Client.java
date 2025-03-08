@@ -6,6 +6,16 @@ public class Client {
 //        interfacetwo.add();
 //        interfacetwo.mul();
 
-        ExampleThree .printNumber();
+//        ExampleThree .printNumber();
+
+        // Call the interface Creating the referance of the child
+//        InheritanceExampleTwo InheritanceExampleTwoRef = new InheritanceExampleTwo();
+//        InheritanceExampleTwoRef.printColor("Red");
+
+//         InheritanceExample inheritanceExample = new InheritanceExampleTwo();
+           Feature F = new Feature(100,100,"Blue");
+           F.setColor();
+           F.setGear();
+
     }
 }
