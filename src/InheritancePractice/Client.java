@@ -13,9 +13,14 @@ public class Client {
 //        InheritanceExampleTwoRef.printColor("Red");
 
 //         InheritanceExample inheritanceExample = new InheritanceExampleTwo();
-           Feature F = new Feature(100,100,"Blue");
-           F.setColor();
-           F.setGear();
+//           Feature F = new Feature(100,100,"Blue");
+//           F.setColor();
+//
+
+        Student sRef = new Student("Test");
+        sRef.userName = "Akshay";
+        sRef.password = "Akshay";
+        sRef.studentName = "Test Akshay";
 
     }
 }
