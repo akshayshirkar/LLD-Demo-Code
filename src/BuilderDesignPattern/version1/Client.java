@@ -1,4 +1,4 @@
-package BuilderDesignPattern;
+package BuilderDesignPattern.version1;
 
 public class Client {
     public static void main(String[] args) {
@@ -17,9 +17,12 @@ public class Client {
 
          // In below code we use the stream terminology
 
-        Account acc = Account.getBuilder()
-           .setName("")
-                .createAccount();
+        opportunity oppRef = opportunity.getBuilder()
+                .setAmount(100)
+                .setHasQuote(true)
+                .setStageName("New")
+                .build();
+
 
     }
 }

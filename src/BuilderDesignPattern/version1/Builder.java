@@ -1,4 +1,4 @@
-package BuilderDesignPattern;
+package BuilderDesignPattern.version1;
 
 public class Builder {
     String name;
