@@ -8,7 +8,7 @@ public class opportunity {
     // Step 3 : Create the constructor which will accept the builder object referance as the argument.
     // This constructomr should be private so that we can restrict the mutablity.
 
-    private opportunity(opportunityBuilder opportunityBuilderRef){
+    public opportunity(opportunityBuilder opportunityBuilderRef){
         this.amount = opportunityBuilderRef.amount;
         if(this.amount < 10000){
             throw new IllegalArgumentException("amount must be greater than 10000");
